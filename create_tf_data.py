@@ -56,8 +56,7 @@ def preprocess_spectrum(ID,mz,intensity):
         
     #max_int = np.max(intensity)
     #spectrum_dense = spectrum_dense/max_int
-    
-    
+        
     
     #print(spectrum)
     #### PREPROCESSING END #########
@@ -150,8 +149,7 @@ class create_tf_data(object):
 
         return element, label
 
-    
-    
+        
     def _read_spectra_iterative(self,filenames,ident='title'):
         
         out_path = self.tfrecord_file
